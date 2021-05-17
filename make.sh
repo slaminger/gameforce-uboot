@@ -816,8 +816,8 @@ pack_trust_image()
 
 pack_idbloader()
 {
-	tools/mkimage -n px30 -T rksd -d ${RKBIN}/bin/rk33/rk3326_ddr_333MHz_v1.10.bin ./sd_fuse/idbloader.img
-	cat ${RKBIN}/bin/rk33/rk3326_miniloader_v1.12.bin >> ./sd_fuse/idbloader.img
+	tools/mkimage -n px30 -T rksd -d ${RKBIN}/bin/rk33/rk3326_ddr_333MHz_v1.15.bin ./sd_fuse/idbloader.img
+	cat ${RKBIN}/bin/rk33/rk3326_miniloader_v1.20.bin >> ./sd_fuse/idbloader.img
 }
 
 finish()
